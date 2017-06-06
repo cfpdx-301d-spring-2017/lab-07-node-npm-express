@@ -19,8 +19,7 @@ app.get('/', function (request, response) {
 });
 
 app.get('*', function (request, response) {
-  console.log('hey');
-  response.status('404').sendFile('./public/404.html', {root: '.'});
+  response.status('404').sendFile('./public/404.html', { root: '.' });
 });
 
 app.post('/articles', bodyParser, function (request, response) {
