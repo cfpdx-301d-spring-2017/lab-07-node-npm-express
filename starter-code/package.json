@@ -1,0 +1,30 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "'lab 07 node.js & NPM'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-grillo/lab-07-node-npm-express.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "js",
+    "codefellows"
+  ],
+  "author": "john grillo, joe churchman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-grillo/lab-07-node-npm-express/issues"
+  },
+  "homepage": "https://github.com/john-grillo/lab-07-node-npm-express#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
