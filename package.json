@@ -1,0 +1,23 @@
+{
+  "name": "lab-07-node-npm-express",
+  "version": "1.0.0",
+  "description": "Lab 07: NodeJS & NPM =======",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMPotter/lab-07-node-npm-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMPotter/lab-07-node-npm-express/issues"
+  },
+  "homepage": "https://github.com/AMPotter/lab-07-node-npm-express#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
